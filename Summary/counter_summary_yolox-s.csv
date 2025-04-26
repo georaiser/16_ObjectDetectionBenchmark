@@ -1,0 +1,3 @@
+Model,Line,Direction,Class_ID,Class_Name,Count
+yolox-s,Line1,up,2.0,car,1
+yolox-s,Line1,down,2.0,car,2
