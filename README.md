@@ -2,8 +2,7 @@
 # 🌎 Object Detection & Tracking Benchmark
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)  
-[![Deep Learning](https://img.shields.io/badge/Deep%20Learning-PyTorch%20%7C%20Ultralytics%20%7C%20YOLOX-red)](https://pytorch.org/)  
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Deep Learning](https://img.shields.io/badge/Deep%20Learning-PyTorch%20%7C%20Ultralytics%20%7C%20YOLOX-red)](https://pytorch.org/)
 
 ---
 
@@ -73,7 +72,7 @@ cd ..
 # Example for running a model
 from ObjectDetectionBenchmark import MODELManager
 
-model_handler = MODELManager("yolov8s")
+model_handler = MODELManager("yolov11s")
 model = model_handler.get_model()
 # Follow detection -> tracking -> counting pipeline
 ```
@@ -97,8 +96,3 @@ You can easily extend or swap models in `ModelConfig` or `DetectorManager`.
 Have questions, ideas, or want to suggest improvements?  
 **Open an issue or start a discussion!**
 
----
-
-# 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
