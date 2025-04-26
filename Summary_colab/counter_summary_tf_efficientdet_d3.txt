@@ -1,0 +1,51 @@
+================================================================================
+OBJECT COUNTING SUMMARY FOR MODEL: tf_efficientdet_d3
+  Total Parameters: 12032296
+  Trainable Parameters: 0
+================================================================================
+
+PROCESSING INFORMATION:
+  Input Video: /content/drive/MyDrive/16_AdvancedTracking/Video1.mp4
+  Output Video: Output/Video1_tf_efficientdet_d3.mp4
+  Model: tf_efficientdet_d3
+  Tracking Algorithm: ByteTrack
+  Device: CUDA - Tesla T4
+  Peak GPU Memory: 15.35 GB
+
+TIMING:
+  Start: 2025-03-15 03:26:49
+  End: 2025-03-15 03:28:43
+  Duration: 0:01:53.927034
+  Total Seconds: 113.93
+
+PERFORMANCE:
+  Average FPS: 10.59
+  Median FPS: 11.02
+  Min FPS: 6.76
+  Max FPS: 11.55
+  Frames Processed: 2002
+  Frame Skip Rate: 2
+  Average Detections per Frame: 1.08
+
+COUNTING STATISTICS:
+  Total Up: 32
+  Total Down: 37
+  Total Objects: 69
+
+Line: Line1
+----------------------------------------
+
+UP Direction:
+  car: 26
+  truck: 5
+  bus: 1
+
+DOWN Direction:
+  car: 36
+  truck: 1
+
+Totals:
+  Total Up: 32
+  Total Down: 37
+  Overall Total: 69
+

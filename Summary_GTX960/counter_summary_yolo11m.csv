@@ -1,0 +1,5 @@
+Model,Line,Direction,Class_ID,Class_Name,Count
+yolo11m,Line1,up,2.0,car,25
+yolo11m,Line1,up,7.0,truck,7
+yolo11m,Line1,down,2.0,car,34
+yolo11m,Line1,down,7.0,truck,1

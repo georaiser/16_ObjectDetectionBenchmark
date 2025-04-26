@@ -1,0 +1,5 @@
+Model,Line,Direction,Class_ID,Class_Name,Count
+fasterrcnn_resnet50_fpn,Line1,up,3,car,31
+fasterrcnn_resnet50_fpn,Line1,up,8,truck,9
+fasterrcnn_resnet50_fpn,Line1,down,3,car,39
+fasterrcnn_resnet50_fpn,Line1,down,8,truck,1

@@ -1,0 +1,8 @@
+.ipynb_checkpoints
+.virtual_documents
+Output/
+Output_colab/
+Output_GTX960/
+weights/
+Input/
+venv/

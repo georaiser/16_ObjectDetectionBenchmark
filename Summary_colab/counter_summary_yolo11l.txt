@@ -1,0 +1,50 @@
+================================================================================
+OBJECT COUNTING SUMMARY FOR MODEL: yolo11l
+  Total Parameters: 25372160
+  Trainable Parameters: 0
+================================================================================
+
+PROCESSING INFORMATION:
+  Input Video: /content/drive/MyDrive/16_AdvancedTracking/Video1.mp4
+  Output Video: Output/Video1_yolo11l.mp4
+  Model: yolo11l
+  Tracking Algorithm: ByteTrack
+  Device: CUDA - Tesla T4
+  Peak GPU Memory: 15.35 GB
+
+TIMING:
+  Start: 2025-03-15 03:38:27
+  End: 2025-03-15 03:39:25
+  Duration: 0:00:57.454412
+  Total Seconds: 57.45
+
+PERFORMANCE:
+  Average FPS: 28.86
+  Median FPS: 31.14
+  Min FPS: 0.81
+  Max FPS: 35.45
+  Frames Processed: 2002
+  Frame Skip Rate: 2
+  Average Detections per Frame: 1.59
+
+COUNTING STATISTICS:
+  Total Up: 32
+  Total Down: 35
+  Total Objects: 67
+
+Line: Line1
+----------------------------------------
+
+UP Direction:
+  car: 25
+  truck: 7
+
+DOWN Direction:
+  car: 34
+  truck: 1
+
+Totals:
+  Total Up: 32
+  Total Down: 35
+  Overall Total: 67
+

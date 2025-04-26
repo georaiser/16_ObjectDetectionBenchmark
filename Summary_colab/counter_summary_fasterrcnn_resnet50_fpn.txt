@@ -1,0 +1,50 @@
+================================================================================
+OBJECT COUNTING SUMMARY FOR MODEL: fasterrcnn_resnet50_fpn
+  Total Parameters: 41755286
+  Trainable Parameters: 0
+================================================================================
+
+PROCESSING INFORMATION:
+  Input Video: /content/drive/MyDrive/16_AdvancedTracking/Video1.mp4
+  Output Video: Output/Video1_fasterrcnn_resnet50_fpn.mp4
+  Model: fasterrcnn_resnet50_fpn
+  Tracking Algorithm: ByteTrack
+  Device: CUDA - Tesla T4
+  Peak GPU Memory: 15.35 GB
+
+TIMING:
+  Start: 2025-03-15 03:28:44
+  End: 2025-03-15 03:30:37
+  Duration: 0:01:53.720195
+  Total Seconds: 113.72
+
+PERFORMANCE:
+  Average FPS: 10.60
+  Median FPS: 10.71
+  Min FPS: 9.13
+  Max FPS: 11.26
+  Frames Processed: 2002
+  Frame Skip Rate: 2
+  Average Detections per Frame: 3.90
+
+COUNTING STATISTICS:
+  Total Up: 40
+  Total Down: 40
+  Total Objects: 80
+
+Line: Line1
+----------------------------------------
+
+UP Direction:
+  car: 31
+  truck: 9
+
+DOWN Direction:
+  car: 39
+  truck: 1
+
+Totals:
+  Total Up: 40
+  Total Down: 40
+  Overall Total: 80
+

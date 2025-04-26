@@ -1,0 +1,50 @@
+================================================================================
+OBJECT COUNTING SUMMARY FOR MODEL: yolov8s
+  Total Parameters: 11166560
+  Trainable Parameters: 0
+================================================================================
+
+PROCESSING INFORMATION:
+  Input Video: /content/drive/MyDrive/16_AdvancedTracking/Video1.mp4
+  Output Video: Output/Video1_yolov8s.mp4
+  Model: yolov8s
+  Tracking Algorithm: ByteTrack
+  Device: CUDA - Tesla T4
+  Peak GPU Memory: 15.35 GB
+
+TIMING:
+  Start: 2025-03-15 03:33:11
+  End: 2025-03-15 03:33:45
+  Duration: 0:00:33.693578
+  Total Seconds: 33.69
+
+PERFORMANCE:
+  Average FPS: 59.53
+  Median FPS: 60.27
+  Min FPS: 6.51
+  Max FPS: 88.03
+  Frames Processed: 2002
+  Frame Skip Rate: 2
+  Average Detections per Frame: 0.87
+
+COUNTING STATISTICS:
+  Total Up: 8
+  Total Down: 15
+  Total Objects: 23
+
+Line: Line1
+----------------------------------------
+
+UP Direction:
+  car: 4
+  truck: 4
+
+DOWN Direction:
+  car: 14
+  truck: 1
+
+Totals:
+  Total Up: 8
+  Total Down: 15
+  Overall Total: 23
+

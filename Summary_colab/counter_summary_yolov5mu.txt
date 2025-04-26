@@ -1,0 +1,50 @@
+================================================================================
+OBJECT COUNTING SUMMARY FOR MODEL: yolov5mu
+  Total Parameters: 25111456
+  Trainable Parameters: 0
+================================================================================
+
+PROCESSING INFORMATION:
+  Input Video: /content/drive/MyDrive/16_AdvancedTracking/Video1.mp4
+  Output Video: Output/Video1_yolov5mu.mp4
+  Model: yolov5mu
+  Tracking Algorithm: ByteTrack
+  Device: CUDA - Tesla T4
+  Peak GPU Memory: 15.35 GB
+
+TIMING:
+  Start: 2025-03-15 03:32:31
+  End: 2025-03-15 03:33:11
+  Duration: 0:00:40.296894
+  Total Seconds: 40.30
+
+PERFORMANCE:
+  Average FPS: 43.69
+  Median FPS: 43.85
+  Min FPS: 3.06
+  Max FPS: 52.19
+  Frames Processed: 2002
+  Frame Skip Rate: 2
+  Average Detections per Frame: 1.11
+
+COUNTING STATISTICS:
+  Total Up: 16
+  Total Down: 21
+  Total Objects: 37
+
+Line: Line1
+----------------------------------------
+
+UP Direction:
+  car: 8
+  truck: 8
+
+DOWN Direction:
+  car: 20
+  truck: 1
+
+Totals:
+  Total Up: 16
+  Total Down: 21
+  Overall Total: 37
+

@@ -1,0 +1,50 @@
+================================================================================
+OBJECT COUNTING SUMMARY FOR MODEL: yolo12m
+  Total Parameters: 20201216
+  Trainable Parameters: 0
+================================================================================
+
+PROCESSING INFORMATION:
+  Input Video: Video1.mp4
+  Output Video: Output/Video1_yolo12m.mp4
+  Model: yolo12m
+  Tracking Algorithm: ByteTrack
+  Device: CUDA - NVIDIA GeForce GTX 960M
+  Peak GPU Memory: 1.97 GB
+
+TIMING:
+  Start: 2025-03-16 01:27:11
+  End: 2025-03-16 01:30:16
+  Duration: 0:03:04.736029
+  Total Seconds: 184.74
+
+PERFORMANCE:
+  Average FPS: 6.24
+  Median FPS: 6.28
+  Min FPS: 1.28
+  Max FPS: 6.72
+  Frames Processed: 2002
+  Frame Skip Rate: 2
+  Average Detections per Frame: 1.52
+
+COUNTING STATISTICS:
+  Total Up: 31
+  Total Down: 31
+  Total Objects: 62
+
+Line: Line1
+----------------------------------------
+
+UP Direction:
+  car: 22
+  truck: 9
+
+DOWN Direction:
+  car: 26
+  truck: 5
+
+Totals:
+  Total Up: 31
+  Total Down: 31
+  Overall Total: 62
+

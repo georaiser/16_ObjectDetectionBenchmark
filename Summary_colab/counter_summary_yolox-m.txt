@@ -1,0 +1,50 @@
+================================================================================
+OBJECT COUNTING SUMMARY FOR MODEL: yolox-m
+  Total Parameters: 25304847
+  Trainable Parameters: 0
+================================================================================
+
+PROCESSING INFORMATION:
+  Input Video: /content/drive/MyDrive/16_AdvancedTracking/Video1.mp4
+  Output Video: Output/Video1_yolox-m.mp4
+  Model: yolox-m
+  Tracking Algorithm: ByteTrack
+  Device: CUDA - Tesla T4
+  Peak GPU Memory: 15.35 GB
+
+TIMING:
+  Start: 2025-03-15 03:31:14
+  End: 2025-03-15 03:31:56
+  Duration: 0:00:42.231994
+  Total Seconds: 42.23
+
+PERFORMANCE:
+  Average FPS: 39.92
+  Median FPS: 40.41
+  Min FPS: 23.86
+  Max FPS: 46.11
+  Frames Processed: 2002
+  Frame Skip Rate: 2
+  Average Detections per Frame: 1.40
+
+COUNTING STATISTICS:
+  Total Up: 31
+  Total Down: 36
+  Total Objects: 67
+
+Line: Line1
+----------------------------------------
+
+UP Direction:
+  car: 24
+  truck: 7
+
+DOWN Direction:
+  car: 35
+  bus: 1
+
+Totals:
+  Total Up: 31
+  Total Down: 36
+  Overall Total: 67
+

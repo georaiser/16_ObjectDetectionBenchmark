@@ -1,0 +1,50 @@
+================================================================================
+OBJECT COUNTING SUMMARY FOR MODEL: yolov5mu
+  Total Parameters: 25111456
+  Trainable Parameters: 0
+================================================================================
+
+PROCESSING INFORMATION:
+  Input Video: Video1.mp4
+  Output Video: Output/Video1_yolov5mu.mp4
+  Model: yolov5mu
+  Tracking Algorithm: ByteTrack
+  Device: CUDA - NVIDIA GeForce GTX 960M
+  Peak GPU Memory: 1.97 GB
+
+TIMING:
+  Start: 2025-03-16 01:10:33
+  End: 2025-03-16 01:13:13
+  Duration: 0:02:40.003866
+  Total Seconds: 160.00
+
+PERFORMANCE:
+  Average FPS: 7.31
+  Median FPS: 7.34
+  Min FPS: 0.86
+  Max FPS: 8.07
+  Frames Processed: 2002
+  Frame Skip Rate: 2
+  Average Detections per Frame: 1.11
+
+COUNTING STATISTICS:
+  Total Up: 16
+  Total Down: 21
+  Total Objects: 37
+
+Line: Line1
+----------------------------------------
+
+UP Direction:
+  car: 8
+  truck: 8
+
+DOWN Direction:
+  car: 20
+  truck: 1
+
+Totals:
+  Total Up: 16
+  Total Down: 21
+  Overall Total: 37
+
